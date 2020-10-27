@@ -7,12 +7,13 @@
 • Validation for the RSVP form, which will display a thank-you page  
 • A summary page that shows who is coming to the party  
 
-**Technology/Tools** 
+**Technology/Tools**  
 Visual Studio Community 2019, ASP.NET core 3.1 MVC 
 
-**Language** 
+**Language**  
 C#, HTML, CSS 
 
-**Reference** 
-Pro ASP.NET Core MVC Sixth Edition Chapter 2 
+**Reference**  
+Pro ASP.NET Core MVC Sixth Edition Chapter 2  
+
 © 2020. A project demo for ASP.NET core MVC. Make by Nguyen Nhut Hao in VietNam 
