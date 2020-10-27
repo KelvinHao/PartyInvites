@@ -14,6 +14,7 @@ Visual Studio Community 2019, ASP.NET core 3.1 MVC
 C#, HTML, CSS 
 
 **Reference**  
-Pro ASP.NET Core MVC Sixth Edition Chapter 2  
+Pro ASP.NET Core MVC | Sixth Edition| Adam Freeman | Chapter 2  
+Pro ASP.Net Core 3 | Eight Edition | Adam Freeman | Chapter 3
 
-© 2020. A project demo for ASP.NET core MVC. Make by Nguyen Nhut Hao in VietNam 
+© 2020. A project demo for ASP.NET core 3 MVC. Make by Nguyen Nhut Hao in VietNam 
