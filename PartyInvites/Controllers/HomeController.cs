@@ -18,19 +18,19 @@ namespace PartyInvites.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public ViewResult Index()
         {
             int hour = DateTime.Now.Hour;
             ViewBag.Greeting = hour < 12 ? "Good Morning" : "Good Afternoon";
             return View("MyView");
         }
         [HttpGet]
-        public IActionResult RsvpForm()
+        public ViewResult RsvpForm()
         {
             return View();
         }
         [HttpPost]
-        public IActionResult RsvpForm(GuestResponse guestResponse)
+        public ViewResult RsvpForm(GuestResponse guestResponse)
         {
             if (ModelState.IsValid)
             {
@@ -45,7 +45,7 @@ namespace PartyInvites.Controllers
             }
         }
 
-        public IActionResult ListResponses(GuestResponse guestResponse)
+        public ViewResult ListResponses(GuestResponse guestResponse)
         {
             return View(Repository.Responses.Where(r => r.WillAttend == true));
         }
